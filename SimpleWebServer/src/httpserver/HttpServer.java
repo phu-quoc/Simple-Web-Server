@@ -58,11 +58,10 @@ public class HttpServer implements Runnable {
 	  }
 
 	  public void start() throws IOException  {
-		System.setProperty("javax.net.ssl.keyStore", "D:\\Nam3-HK1-2022-2023\\LTM\\final\\httpserver.jks");
+		System.setProperty("javax.net.ssl.keyStore", path+"httpserver.jks");
 		System.setProperty("javax.net.ssl.keyStorePassword", "password");
 		SSLServerSocketFactory factory = (SSLServerSocketFactory) SSLServerSocketFactory.getDefault();
 		socket = factory.createServerSocket(port);
-		
 	    while ((client = socket.accept()) != null)  {
 	    	long currentTime = System.currentTimeMillis();
 	    	if(currentTime-time > 1000) {
@@ -151,7 +150,8 @@ public class HttpServer implements Runnable {
 			start();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-//			e.printStackTrace();
+			//
+			e.printStackTrace();
 		}
 	  }
 	  
@@ -176,7 +176,8 @@ public class HttpServer implements Runnable {
 			socket.close();
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
-//			e1.printStackTrace();
+			//
+			e1.printStackTrace();
 		}
 	}
 	}

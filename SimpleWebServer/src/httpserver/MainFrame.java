@@ -139,12 +139,17 @@ public class MainFrame {
 		lblPath.setBounds(541, 20, 45, 13);
 		panelServers.add(lblPath);
 		
+		JFileChooser fileChooser = new JFileChooser();
+		fileChooser.setCurrentDirectory(new File(".\\"));
+		path = fileChooser.getCurrentDirectory()+"\\";
+		
 		JButton btnBrowse = new JButton("Browse");
 		btnBrowse.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JFileChooser fileChooser = new JFileChooser();
 				fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				fileChooser.setCurrentDirectory(new File(".\\"));
+				
 				int result = fileChooser.showOpenDialog(null);
 				if (result == JFileChooser.APPROVE_OPTION) {
 		            File selectedFolder = fileChooser.getSelectedFile();
@@ -235,7 +240,8 @@ public class MainFrame {
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
-//					log("Java", e1.getMessage());
+					//
+					log(e1.getMessage());
 				}
             }
         });	
@@ -254,7 +260,8 @@ public class MainFrame {
           	      	log("Server stopped.");
 				} catch (Exception e1) {
 					// TODO Auto-generated catch block
-//					log("Java", e1.getMessage());
+					//
+					log(e1.getMessage());
 				}
             }
         });	
