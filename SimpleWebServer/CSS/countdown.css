@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    background: url(/Images/pexels-photo-917494.jpeg);
+}
+
+.container {
+    max-width: 720px;
+    text-align: center;
+    margin: auto;
+    
+
+}
+.display {
+    background: url(/Images/New-folder/vongcanh.jpg) top center / cover no-repeat;
+    padding-top: 175%;
+    position: relative;
+}
+
+.inline-block {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    width: 30%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #fff;
+    font-size: 30px;
+}
+
+.time {
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+    opacity: 0.6;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.audio {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+}
+@media (max-width: 400px)
+{
+    .time {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 300px)
+{
+    .time {
+        font-size: 15px;
+    }
+    .text {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Raund';
+    src: url('../fonts/Raund-Bold-webfont.eot');
+    src: url('../fonts/Raund-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Raund-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Raund-Bold-webfont.woff') format('woff'),
+         url('../fonts/Raund-Bold-webfont.ttf') format('truetype'), url('../fonts/Raund-Bold-webfont.svg#raundbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Raund';
+    src: url('../fonts/Raund-Italic-webfont.eot');
+    src: url('../fonts/Raund-Italic-webfont.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Raund-Italic-webfont.woff2') format('woff2'),
+         url('../fonts/Raund-Italic-webfont.woff') format('woff'),
+         url('../fonts/Raund-Italic-webfont.ttf') format('truetype'), url('../fonts/Raund-Italic-webfont.svg#raunditalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Raund';
+    src: url('../fonts/Raund-webfont.eot');
+    src: url('../fonts/Raund-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Raund-webfont.woff2') format('woff2'),
+         url('../fonts/Raund-webfont.woff') format('woff'),
+         url('../fonts/Raund-webfont.ttf') format('truetype'),
+         url('../fonts/Raund-webfont.svg#raundregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Raund', Arial, Helvetica, sans-serif;
+  }
+  
+  .section {
+      font-size: 40px;
+      text-align: center;
+      color: #fff;
+  }
+  
+  .slide {
+      padding: 0 60px;
+      color: #00174f;
+  }
+  
+  .slide:nth-child(1) {
+      background: #ffd200;
+  }
+  
+  .slide:nth-child(2) {
+      background: #ff0000;
+  }
+  
+  .slide:nth-child(3) {
+      background: #ccc;
+  }
+  
+  .slide:nth-child(4) {
+      background: #fff;
+  }
+  
+  .fp-controlArrow.fp-next {
+      border-color: transparent transparent transparent #00174f;
+  }
+  
+  .fp-controlArrow.fp-prev {
+      border-color: transparent #00174f transparent transparent;
+  }
+  
+  .header {
+      width: 100%;
+      padding: 15px;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+      background: #00174f;
+      box-shadow: rgba(0, 0, 0, 1) 0 0 7px;
+  }
+  
+  .main-nav {}
+  
+  .main-nav ul {
+      margin: 0 -15px;
+      padding: 0;
+      list-style: none;
+  }
+  
+  .main-nav li {
+      display: inline-block;
+      margin-right: -4px;
+      padding: 0 15px;
+  }
+  
+  .main-nav a {
+      display: block;
+      font-size: 16px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+  
+  .main-nav .active a {
+      color: #ffd200;
+  }
+  
+  @media (min-width:768px) {
+      .section {
+          font-size: 60px;
+      }
+  
+      .header {
+          padding: 30px;
+      }
+  
+      .main-nav a {
+          font-size: 18px;
+      }
+  }

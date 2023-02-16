@@ -1,0 +1,31 @@
+#mainDiv {
+    width: 950px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: #30386b;
+    border-radius: 10px;
+}
+
+#mainAudio {
+    width: 950px;
+    margin-bottom: 20px;
+}
+
+.subDivPlay {
+    background-color: #ff0000;
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.subAudio {
+    width: 500px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+}
+
+p {
+    float: left;
+    margin: 7px 0px 0px 70px;
+    color: #ffffff;
+}

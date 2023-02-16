@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-image: url('../Images/greendot.png');
+    background-repeat: no-repeat;
+    background-position: 20px;
+    padding-left: 40px;
+}
+
+li:hover {
+    background-image: url('../Images/yellowdot.png');
+    background-repeat: no-repeat;
+    background-position: 20px;
+    padding-left: 40px;
+}

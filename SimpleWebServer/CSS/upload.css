@@ -1,0 +1,24 @@
+.container #upload input {
+    opacity: 0;
+
+    margin: 0;
+    padding-top: 150%;
+    
+}
+.container #upload {
+
+    border:1px dashed;
+    border-radius: 5px;
+}
+
+.container button{
+
+}
+
+.container #upload p {
+    width: 100%;
+    height: 100%;
+}
+
+
+

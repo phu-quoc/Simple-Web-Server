@@ -1,0 +1,33 @@
+#divPlayMain {
+    float: left;
+    margin-left: 40px;
+}
+
+.divPlaySub {
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+#mainVideo {
+    width: 960px;
+    height: 540px;
+}
+
+.subVideo {
+    width: 160px;
+    height: 90px;
+    float: left;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub {
+    margin-top: 0px;
+    margin-left: 165px;
+}
+

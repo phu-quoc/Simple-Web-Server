@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toast {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 8px rgb(174, 174, 174);
+    border-radius: 2px;
+    border-left: 4px solid;
+    padding: 20px 0;
+}
+
+.toast__icon, .toast__close {
+    padding: 0 16px;    
+}

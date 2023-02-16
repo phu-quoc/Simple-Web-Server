@@ -1,0 +1,171 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.header .col_left {
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.header .col_right {
+    display: inline-block;
+}
+
+.header .row {
+    font-weight: bold;
+}
+
+.header .col_right ul li a{
+    color: black;
+}
+
+
+.categories select {
+    width: 200px;
+    height: 40px;
+    background-color: #469032;
+    border: none;
+    margin-right: 20px;
+}
+
+.categories input {
+    width: 400px;
+    height: 40px;
+}
+
+.categories .submit {
+    width: 100px;
+    height: 40px;
+    background-color: #469032;
+    border: none;
+}
+
+
+.header .col_right ul li {
+    display: inline-block;
+    margin-right: 50px;
+    letter-spacing: 2px;
+}
+.nav {
+    /*background-color: #cccccc;*/
+    padding: 25px;
+    background-image: url(../Images/thubaogia.info.png);
+    color: #ffffff;
+    font-size: 21px;
+    text-align: center;
+}
+
+.content .col_left {
+    float: left;
+    width: 64%;
+    padding-left: 150px;
+}
+
+.content .col_right {
+    float: right;
+    width: 30%;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.laptop_details2 ul li {
+    display: inline-block;
+}
+
+.laptop_content img {
+    width: 100%;
+}
+
+span {
+    font-weight: bold;
+}
+
+.col_produce {
+    width: 70%;
+    /*background-color: aqua;*/
+    float: left;
+}
+
+.col_shop {
+    width: 15%;
+    /*background-color: aqua;*/
+    float: left;
+}
+
+.col_price {
+    width: 15%;
+    /*background-color: aqua;*/
+    float: left;
+}
+
+hr {
+    clear: both;
+}
+
+.col_shop img {
+    width: 100px;
+}
+
+.content .col_related_left {
+    width: 33.33%;
+}
+
+.content .col_related_middle {
+    width: 33.33%;
+}
+
+.content .col_related_center {
+    width: 33.33%;
+}
+
+.col_related_left img{
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.col_img {
+    
+    float: left;
+}
+.col_img img {
+    width: 100px;
+}
+
+.col_text {
+    float: left;
+    width: 75%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.mobile .mob {
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #eeeeee;
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+.mobile .mob a {
+    color: #949494;
+}
+.row {
+    /*background-color: #cccccc;*/
+    clear: both;
+}
+
+.col_left {
+    /*background-color: royalblue;*/
+}
+
+.col_right {
+    /*background-color: skyblue;*/
+}

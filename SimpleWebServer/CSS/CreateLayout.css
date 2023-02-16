@@ -1,0 +1,8 @@
+div {
+    background-color: #cccccc;
+}
+
+div .col{
+    
+    border: 5px solid white;
+}
